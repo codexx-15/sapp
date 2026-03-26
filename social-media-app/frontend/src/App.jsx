@@ -1,1 +1,8 @@
-export default function App(){ return <h1>Hello</h1> }
+import React from "react";
+import Home from "./pages/Home";
+
+function App() {
+  return <Home />;
+}
+
+export default App;
